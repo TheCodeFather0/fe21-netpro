@@ -1,12 +1,11 @@
-import { Box, Button, CssBaseline } from "@mui/material";
+import HeaderTop from "@/Components/HeaderTop";
+import { Box } from "@mui/material";
 import React from "react";
 
 const page = () => {
   return (
     <Box>
-      <Button variant="contained" color="secondary">
-        click me:)
-      </Button>
+      <HeaderTop />
     </Box>
   );
 };
